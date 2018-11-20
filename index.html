@@ -1,277 +1,378 @@
-<!DOCTYPE html>
-<html>
+<!--
+	作者：Sariay
+	时间：2018-09-25
+	描述：There may be a bug, but don't worry, QiLing(器灵) says that it can work normally!
+-->
+
+
+	<!DOCTYPE html>
+	<html>
+		
+
 <head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
+	<title>陈炼的Python专栏</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-title" content="Amaze UI">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="Lian">
+    <meta name="keywords" content="Python;">
+    <meta name="description" content="从删库到跑路">
+   	<!-- css -->
+	<link rel="stylesheet" href="/css/style.css">
 
-  
-  <title>陈炼的Python专栏</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="keywords" content="Python;">
-<meta property="og:type" content="website">
-<meta property="og:title" content="陈炼的Python专栏">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="陈炼的Python专栏">
-<meta property="og:locale" content="default">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="陈炼的Python专栏">
-  
-    <link rel="alternate" href="/atom.xml" title="陈炼的Python专栏" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
+	<!-- favicon -->
+	<link href="/img/favicon.ico" rel="Shortcut Icon" type="image/ico">
+	
+	<!-- font-awesome -->
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-</html>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">陈炼的Python专栏</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">从删库到跑路</a>
-        </h2>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
+	<body>	
+		<!--Preloader-->
+<div id="preloader">
+	<div id="status">
+		<img alt="PRELOADER" src="/img/logo.png">
+	</div>
+</div>
+<!--Preloader end-->
+
+<!-- header -->
+
+	<header id="header-bg-2">
+
+	
+		<div id="cd-logo"><a href="/"><img src="/img/logo.png" alt="Logo"></a></div>
+	
+	
+	<!-- motto or description -->
+		
+ 		<p class="motto"></p>
+	
+	
+	<!-- current page name or title -->
+	
+		
+		
+			
+			<p class="page-name">主页</p>	
+			
+		
+	
+	
+	<!-- others: such as change-bg, time... -->
+	<p class="page-name-other">
+		11/20/2018 
+		<style type="text/css">
+	header:after {
+		content: '';
+		position: relative;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: #222222;
+		opacity: .5;
+		z-index: -1;
+	}
+	
+	.change-header-bg{
+		font-style: normal;
+	}
+	.change-header-bg i{
+		text-align: center;
+		cursor: pointer;
+		pointer-events: bounding-box;
+	}
+	@media(max-width:512px) {
+		.change-header-bg {
+			display: none;
+			visibility: hidden;
+		}
+	}
+	
+</style>
+
+<script type="text/javascript">
+	function changeHeaderBg(){
+		var random_bg = Math.floor(Math.random() * 109 + 1);
+		var bg = 'url(https://clplusa-youname-clplusa.github.io/Random-img/' + random_bg + '.jpg)';
+		$("#header-bg-2").css("background-image", bg);
+	}
+</script>
+
+<span class="change-header-bg">
+	——&nbsp;<i class="fa fa-camera-retro" onclick="changeHeaderBg()"></i>	
+</span>
+	</p>		
 </header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-Python_Idiom" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/11/19/Python_Idiom/" class="article-date">
-  <time datetime="2018-11-19T06:12:02.114Z" itemprop="datePublished">2018-11-19</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="Python惯例"><a href="#Python惯例" class="headerlink" title="Python惯例"></a>Python惯例</h2><p>“惯例”这个词指的是“习惯的做法，常规的办法，一贯的做法”，与这个词对应的英文单词叫“idiom”。由于Python跟其他很多编程语言在语法和使用上还是有比较显著的差别，因此作为一个Python开发者如果不能掌握这些惯例，就无法写出“Pythonic”的代码。下面我们总结了一些在Python开发中的惯用的代码。</p>
-<ol>
-<li><p>让代码既可以被导入又可以被执行。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>用下面的方式判断逻辑“真”或“假”。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">if</span> x:</span><br><span class="line"><span class="keyword">if</span> <span class="keyword">not</span> x:</span><br></pre></td></tr></table></figure>
-<p><strong>好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">name = <span class="string">'jackfrued'</span></span><br><span class="line">fruits = [<span class="string">'apple'</span>, <span class="string">'orange'</span>, <span class="string">'grape'</span>]</span><br><span class="line">owners = &#123;<span class="string">'1001'</span>: <span class="string">'骆昊'</span>, <span class="string">'1002'</span>: <span class="string">'王大锤'</span>&#125;</span><br><span class="line"><span class="keyword">if</span> name <span class="keyword">and</span> fruits <span class="keyword">and</span> owners:</span><br><span class="line">    print(<span class="string">'I love fruits!'</span>)</span><br></pre></td></tr></table></figure>
-<p><strong>不好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">name = <span class="string">'jackfrued'</span></span><br><span class="line">fruits = [<span class="string">'apple'</span>, <span class="string">'orange'</span>, <span class="string">'grape'</span>]</span><br><span class="line">owners = &#123;<span class="string">'1001'</span>: <span class="string">'骆昊'</span>, <span class="string">'1002'</span>: <span class="string">'王大锤'</span>&#125;</span><br><span class="line"><span class="keyword">if</span> name != <span class="string">''</span> <span class="keyword">and</span> len(fruits) &gt; <span class="number">0</span> <span class="keyword">and</span> owners != &#123;&#125;:</span><br><span class="line">    print(<span class="string">'I love fruits!'</span>)</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>善于使用in运算符。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">if</span> x <span class="keyword">in</span> items: <span class="comment"># 包含</span></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> items: <span class="comment"># 迭代</span></span><br></pre></td></tr></table></figure>
-<p><strong>好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">name = <span class="string">'Hao LUO'</span></span><br><span class="line"><span class="keyword">if</span> <span class="string">'L'</span> <span class="keyword">in</span> name:</span><br><span class="line">    print(<span class="string">'The name has an L in it.'</span>)</span><br></pre></td></tr></table></figure>
-<p><strong>不好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">name = <span class="string">'Hao LUO'</span></span><br><span class="line"><span class="keyword">if</span> name.find(<span class="string">'L'</span>) != <span class="number">-1</span>:</span><br><span class="line">    print(<span class="string">'This name has an L in it!'</span>)</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>不使用临时变量交换两个值。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">a, b = b, a</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>用序列构建字符串。</p>
-<p><strong>好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">chars = [<span class="string">'j'</span>, <span class="string">'a'</span>, <span class="string">'c'</span>, <span class="string">'k'</span>, <span class="string">'f'</span>, <span class="string">'r'</span>, <span class="string">'u'</span>, <span class="string">'e'</span>, <span class="string">'d'</span>]</span><br><span class="line">name = <span class="string">''</span>.join(chars)</span><br><span class="line">print(name)  <span class="comment"># jackfrued</span></span><br></pre></td></tr></table></figure>
-<p><strong>不好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">chars = [<span class="string">'j'</span>, <span class="string">'a'</span>, <span class="string">'c'</span>, <span class="string">'k'</span>, <span class="string">'f'</span>, <span class="string">'r'</span>, <span class="string">'u'</span>, <span class="string">'e'</span>, <span class="string">'d'</span>]</span><br><span class="line">name = <span class="string">''</span></span><br><span class="line"><span class="keyword">for</span> char <span class="keyword">in</span> chars:</span><br><span class="line">    name += char</span><br><span class="line">print(name)  <span class="comment"># jackfrued</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>EAFP优于LBYL。</p>
-<p>EAFP - <strong>E</strong>asier to <strong>A</strong>sk <strong>F</strong>orgiveness than <strong>P</strong>ermission.</p>
-<p>LBYL - <strong>L</strong>ook <strong>B</strong>efore <strong>Y</strong>ou <strong>L</strong>eap.</p>
-<p><strong>好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">d = &#123;<span class="string">'x'</span>: <span class="string">'5'</span>&#125;</span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    value = int(d[<span class="string">'x'</span>])</span><br><span class="line">    print(value)</span><br><span class="line"><span class="keyword">except</span> (KeyError, TypeError, ValueError):</span><br><span class="line">    value = <span class="keyword">None</span></span><br></pre></td></tr></table></figure>
-<p><strong>不好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">d = &#123;<span class="string">'x'</span>: <span class="string">'5'</span>&#125;</span><br><span class="line"><span class="keyword">if</span> <span class="string">'x'</span> <span class="keyword">in</span> d <span class="keyword">and</span> isinstance(d[<span class="string">'x'</span>], str) \</span><br><span class="line">		<span class="keyword">and</span> d[<span class="string">'x'</span>].isdigit():</span><br><span class="line">    value = int(d[<span class="string">'x'</span>])</span><br><span class="line">    print(value)</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">    value = <span class="keyword">None</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>使用enumerate进行迭代。</p>
-<p><strong>好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">fruits = [<span class="string">'orange'</span>, <span class="string">'grape'</span>, <span class="string">'pitaya'</span>, <span class="string">'blueberry'</span>]</span><br><span class="line"><span class="keyword">for</span> index, fruit <span class="keyword">in</span> enumerate(fruits):</span><br><span class="line">	print(index, <span class="string">':'</span>, fruit)</span><br></pre></td></tr></table></figure>
-<p><strong>不好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">fruits = [<span class="string">'orange'</span>, <span class="string">'grape'</span>, <span class="string">'pitaya'</span>, <span class="string">'blueberry'</span>]</span><br><span class="line">index = <span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> fruit <span class="keyword">in</span> fruits:</span><br><span class="line">    print(index, <span class="string">':'</span>, fruit)</span><br><span class="line">    index += <span class="number">1</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>用生成式生成列表。</p>
-<p><strong>好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">data = [<span class="number">7</span>, <span class="number">20</span>, <span class="number">3</span>, <span class="number">15</span>, <span class="number">11</span>]</span><br><span class="line">result = [num * <span class="number">3</span> <span class="keyword">for</span> num <span class="keyword">in</span> data <span class="keyword">if</span> num &gt; <span class="number">10</span>]</span><br><span class="line">print(result)  <span class="comment"># [60, 45, 33]</span></span><br></pre></td></tr></table></figure>
-<p><strong>不好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">data = [<span class="number">7</span>, <span class="number">20</span>, <span class="number">3</span>, <span class="number">15</span>, <span class="number">11</span>]</span><br><span class="line">result = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> data:</span><br><span class="line">    <span class="keyword">if</span> i &gt; <span class="number">10</span>:</span><br><span class="line">        result.append(i * <span class="number">3</span>)</span><br><span class="line">print(result)  <span class="comment"># [60, 45, 33]</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>用zip组合键和值来创建字典。</p>
-<p><strong>好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">keys = [<span class="string">'1001'</span>, <span class="string">'1002'</span>, <span class="string">'1003'</span>]</span><br><span class="line">values = [<span class="string">'骆昊'</span>, <span class="string">'王大锤'</span>, <span class="string">'白元芳'</span>]</span><br><span class="line">d = dict(zip(keys, values))</span><br><span class="line">print(d)</span><br></pre></td></tr></table></figure>
-<p><strong>不好</strong>的代码：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">keys = [<span class="string">'1001'</span>, <span class="string">'1002'</span>, <span class="string">'1003'</span>]</span><br><span class="line">values = [<span class="string">'骆昊'</span>, <span class="string">'王大锤'</span>, <span class="string">'白元芳'</span>]</span><br><span class="line">d = &#123;&#125;</span><br><span class="line"><span class="keyword">for</span> i, key <span class="keyword">in</span> enumerate(keys):</span><br><span class="line">    d[key] = values[i]</span><br><span class="line">print(d)</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<blockquote>
-<p><strong>说明</strong>：这篇文章的内容来自于网络，有兴趣的读者可以阅读<a href="http://safehammad.com/downloads/python-idioms-2014-01-16.pdf" target="_blank" rel="noopener">原文</a>。</p>
-</blockquote>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/11/19/Python_Idiom/" data-id="cjopmjuna0000xhpa7qtx5v6a" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+<!-- nav -->
+<div id="cd-nav">
+	<a href="#0" title="menu" class="cd-nav-trigger"><span></span></a>
 
+	<nav id="cd-main-nav">
+		<ul>
+			
+      		<li class="fa fa-/">
+           		<a href="/" title="主页">主页</a>	
+      		</li>
+    		
+      		<li class="fa fa-/archives">
+           		<a href="/archives" title="归档">归档</a>	
+      		</li>
+    		
+      		<li class="fa fa-/categories">
+           		<a href="/categories" title="分类">分类</a>	
+      		</li>
+    		
+      		<li class="fa fa-/tags">
+           		<a href="/tags" title="标签">标签</a>	
+      		</li>
+    		
+      		<li class="fa fa-/about">
+           		<a href="/about" title="关于">关于</a>	
+      		</li>
+    		
+      		<li class="fa fa-/gallery">
+           		<a href="/gallery" title="相册">相册</a>	
+      		</li>
+    		
+    		
+        	
+		</ul>
+	</nav>
+</div>
 
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/11/19/hello-world/" class="article-date">
-  <time datetime="2018-11-19T03:50:23.457Z" itemprop="datePublished">2018-11-19</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/11/19/hello-world/">Hello World</a>
-    </h1>
-  
+		<!--main-->
+		<main> 
+		<div class="page-container">
+		
+	<!-- content srart -->
+<div class="am-g am-g-fixed blog-fixed">
+	<div class="am-u-md-12 am-u-sm-12">
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+		
+			<article class="am-g blog-entry-article">
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/11/19/hello-world/" data-id="cjopmjunm0001xhpahse4anv8" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
+					<img src="/img/cart_cover.jpg" class="am-u-sm-12">
+				</div>	
 
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+					<span class="theme-annie-post-date">
+						<a href="/2018/11/19/Python_Idiom/" itemprop="url">
+	<time datetime="2018-11-19T06:12:02.114Z" itemprop="datePublished">
+  		2018-11-19
+  </time>
+</a>    
 
-  
+					</span>
+					<span class="theme-annie-post-title">
+						
+					</span>
+					
+					
+						<p>
+							
+								Python惯例“惯例”这个词指的是“习惯的做法，常规的办法，一贯的做法”，与这个词对应的英文单词叫“idiom”。由于Python跟其他很多编程语言在语法和使用上还是有比较显著的差别，因此作为一个Python开发者如果不能掌握这些惯例，就无法写出“Pythonic”的代码。下面我们总结了一些在Python开发中的惯用的代码。
 
+让代码既可以被导入又可以被执行。
+12if __name__ == 	
+							  
+						</p> 
+					
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
+					
+						<span class="continue-read">      	
+							<a href="/2018/11/19/Python_Idiom/" class="pull-right">
+								展开全文
+							</a>		
+						</span>
+					         		
+				</div>
+		
+			</article>
+		
+			<article class="am-g blog-entry-article">
 
-  
-    
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-img">
+					<img src="/img/cart_cover.jpg" class="am-u-sm-12">
+				</div>	
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/11/">November 2018</a></li></ul>
-    </div>
-  </div>
+				<div class="am-u-lg-6 am-u-md-12 am-u-sm-12 blog-entry-text">
+					<span class="theme-annie-post-date">
+						<a href="/2018/11/19/hello-world/" itemprop="url">
+	<time datetime="2018-11-19T03:50:23.457Z" itemprop="datePublished">
+  		2018-11-19
+  </time>
+</a>    
 
+					</span>
+					<span class="theme-annie-post-title">
+						
+	
+		<a href="/2018/11/19/hello-world/" itemprop="url">		
+			Hello World		
+		</a>
+	
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2018/11/19/Python_Idiom/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2018/11/19/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
+					</span>
+					
+					
+						<p>
+							
+								Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick	
+							  
+						</p> 
+					
 
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2018 Lian<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
+					
+						<span class="continue-read">      	
+							<a href="/2018/11/19/hello-world/" class="pull-right">
+								展开全文
+							</a>		
+						</span>
+					         		
+				</div>
+		
+			</article>
+		     
+
+		    	
+	</div>
+</div>
+<!-- content end -->
+
+	<!--图文风格-->
+
+		</div>
+		</main>
+		
+		<!--footer-->
+		<footer>
+	<div class="blog-text-center">
+		<div class="theme-annie-social">
+				
+				
+					<a href="https://clplusa.github.io/" title="Github" target="_blank"><i class="fa fa-github"></i>&nbsp;</a>
+					
+				
+					<a href="https://weibo.com/3021724587/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" title="Weibo" target="_blank"><i class="fa fa-weibo"></i>&nbsp;</a>
+				
+				
+					<a href="https://mail.qq.com/cgi-bin/frame_html?sid=_0TZo5R_Z7lKQg1W&r=da791ecb7710d529cde5c7f8965a5c58" title="Email" target="_blank"><i class="fa fa-envelope-o"></i>&nbsp;</a>
+					
+				
+					<a href="http://github.com/" title="QQ" target="_blank"><i class="fa fa-qq"></i>&nbsp;</a>
+					
+				
+					<a href="http://github.com/" title="Twitter" target="_blank"><i class="fa fa-twitter"></i>&nbsp;</a>
+						
+				
+		</div>
+	</div>
+
+	<div class="blog-text-center">
+		<div class="theme-annie-copyright">
+			
+				&copy; 2017 - 2018, content by Lian. All Rights Reserved.			       	
+			
+		</div>
+	</div>
+
+	<div class="blog-text-center">
+		<div class="theme-annie-copyright">
+			<a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> Theme <a href="https://github.com/Sariay/hexo-theme-Annie" title="Annie" target="_blank" rel="noopener">Annie</a> by Sariay.		
+		</div>
+	</div>
 </footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
+		<!-- <script src="http://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script> -->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+	window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>')
+</script>
+
+<style>
+	.motto {
+		color: #000000;
+		font-size: 20px;
+		margin: 100px 25% 0;
+		width: 50%;
+		line-height: 1.4;
+		font-family:"KaiTi", "STXingkai", "Source Sans Pro", "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+		text-align: center;
+	}
+	@media(max-width: 890px) {
+		.motto {	
+			margin: 100px 10% 0;
+			width: 80%;
+		}
+	}
+	@media(max-width: 890px) {
+		.motto {
+			margin: 100px 5% 0;
+			width: 90%;
+		}
+	}
+</style>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="/js/motto.js"></script>
+	<script type="text/javascript">
+		$(".motto").html(getMingYanContent());
+	</script>	
 
 
-<script src="/js/script.js"></script>
 
 
 
-  </div>
-</body>
-</html>
+
+
+
+<script type="text/javascript" src="/js/main.js"></script>
+
+<script type="text/javascript">
+	//generate a random img that pre_name 'from 0 to 110'
+	var random_bg = Math.floor(Math.random() * 109 + 1);
+
+	//var bg = 'url(/img/random/' + random_bg + '.jpg)';		
+	var bg = 'url(https://clplusa-youname-clplusa.github.io/Random-img/' + random_bg + '.jpg)';
+
+	$("#header-bg-2").css("background-image", bg);
+</script>
+		
+		<!--back to top-->
+        <style type="text/css">
+	#totop {
+		background: white;
+		border-radius: 50%;
+		position: fixed;
+		right: 5.4%;
+		bottom: 80px;
+		cursor: pointer;
+	}
+	
+	#totop a {
+		color: #474747;
+		background-color: transparent;
+		padding: 10px;
+		text-decoration: none;
+	}
+	
+	@media(max-width:512px) {
+		#totop {
+			display: none;
+			visibility: hidden;
+		}
+	}
+</style>
+
+
+	<div id="totop">
+  		<a href="javascript:;" class="fa fa-arrow-up"></a>
+	</div>
+
+	</body>
+	</html>
+
